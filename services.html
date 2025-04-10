@@ -1,105 +1,508 @@
-<section class="services-section">
-  <div class="container">
-    <h1>Services</h1>
-    <p class="intro">I offer comprehensive content solutions designed to meet your specific business needs and objectives. Each service is tailored to deliver measurable results and exceptional quality.</p>
-    
-    <div class="service">
-      <h2>E-commerce Content Excellence</h2>
-      <div class="service-details">
-        <div class="service-description">
-          <p>Transform your online store with content that not only showcases products but drives sales and builds customer loyalty.</p>
-          <ul>
-            <li><strong>Product Descriptions</strong> - Conversion-focused copy that highlights benefits and overcomes objections</li>
-            <li><strong>Brand Storytelling</strong> - Authentic narratives that create emotional connections with customers</li>
-            <li><strong>Category Page Optimization</strong> - Strategic content that improves navigation and increases sales</li>
-            <li><strong>Email Marketing Sequences</strong> - Engaging campaigns that nurture leads and encourage repeat purchases</li>
-            <li><strong>SEO Product Content</strong> - Keyword-optimized descriptions that improve visibility and traffic</li>
-          </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Elite Content Solutions</title>
+    <meta name="description" content="Professional content services including e-commerce copywriting, technical documentation, and content strategy. Transform your messaging with strategic, results-driven content.">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">Elite Content Solutions</a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="service-image">
-          <!-- 电商内容相关图片 -->
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Services Section -->
+        <section class="services-section">
+            <div class="container">
+                <h1 class="fade-in">Services</h1>
+                <p class="intro fade-in">I offer comprehensive content solutions designed to meet your specific business needs and objectives. Each service is tailored to deliver measurable results and exceptional quality.</p>
+                
+                <!-- E-commerce Content -->
+                <div id="ecommerce" class="service scroll-animation">
+                    <h2>E-commerce Content Excellence</h2>
+                    <div class="service-details">
+                        <div class="service-description">
+                            <p>Transform your online store with content that not only showcases products but drives sales and builds customer loyalty.</p>
+                            <ul>
+                                <li><strong>Product Descriptions</strong> - Conversion-focused copy that highlights benefits and overcomes objections</li>
+                                <li><strong>Brand Storytelling</strong> - Authentic narratives that create emotional connections with customers</li>
+                                <li><strong>Category Page Optimization</strong> - Strategic content that improves navigation and increases sales</li>
+                                <li><strong>Email Marketing Sequences</strong> - Engaging campaigns that nurture leads and encourage repeat purchases</li>
+                                <li><strong>SEO Product Content</strong> - Keyword-optimized descriptions that improve visibility and traffic</li>
+                            </ul>
+                            <div class="service-benefits">
+                                <h3>Benefits</h3>
+                                <div class="benefits-grid">
+                                    <div class="benefit">
+                                        <i class="fas fa-chart-line"></i>
+                                        <p>Increased conversion rates</p>
+                                    </div>
+                                    <div class="benefit">
+                                        <i class="fas fa-search"></i>
+                                        <p>Improved search visibility</p>
+                                    </div>
+                                    <div class="benefit">
+                                        <i class="fas fa-undo"></i>
+                                        <p>Reduced return rates</p>
+                                    </div>
+                                    <div class="benefit">
+                                        <i class="fas fa-heart"></i>
+                                        <p>Enhanced brand loyalty</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <img src="assets/images/services/ecommerce-content.jpg" alt="E-commerce Content Services">
+                            <a href="portfolio.html#ecommerce" class="btn btn-outline">View E-commerce Samples</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Technical Content -->
+                <div id="technical" class="service scroll-animation">
+                    <h2>Technical Content Simplification</h2>
+                    <div class="service-details">
+                        <div class="service-description">
+                            <p>Make complex information accessible and engaging for both technical and non-technical audiences.</p>
+                            <ul>
+                                <li><strong>Product Documentation</strong> - Clear, user-friendly guides that reduce support inquiries</li>
+                                <li><strong>SaaS Feature Descriptions</strong> - Benefit-focused content that emphasizes practical applications</li>
+                                <li><strong>API Documentation</strong> - Developer-friendly technical content with clear examples</li>
+                                <li><strong>Release Notes</strong> - Engaging updates that highlight improvements and build user excitement</li>
+                                <li><strong>Technical Guides & Tutorials</strong> - Step-by-step instructions that enhance user success</li>
+                            </ul>
+                            <div class="service-benefits">
+                                <h3>Benefits</h3>
+                                <div class="benefits-grid">
+                                    <div class="benefit">
+                                        <i class="fas fa-ticket-alt"></i>
+                                        <p>Reduced support tickets</p>
+                                    </div>
+                                    <div class="benefit">
+                                        <i class="fas fa-users"></i>
+                                        <p>Improved user adoption</p>
+                                    </div>
+                                    <div class="benefit">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        <p>Higher user satisfaction</p>
+                                    </div>
+                                    <div class="benefit">
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <p>Faster learning curve</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <img src="assets/images/services/technical-content.jpg" alt="Technical Content Services">
+                            <a href="portfolio.html#technical" class="btn btn-outline">View Technical Samples</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Content Strategy -->
+                <div id="strategy" class="service scroll-animation">
+                    <h2>Strategic Content Development</h2>
+                    <div class="service-details">
+                        <div class="service-description">
+                            <p>Develop comprehensive content strategies that align with your business goals and connect with your target audience.</p>
+                            <ul>
+                                <li><strong>Content Audits</strong> - Thorough assessment to identify gaps and opportunities</li>
+                                <li><strong>Editorial Calendars</strong> - Structured content planning aligned with business objectives</li>
+                                <li><strong>Style Guides</strong> - Consistent brand voice and presentation across all channels</li>
+                                <li><strong>Keyword Research & Implementation</strong> - Strategic SEO approach for improved discoverability</li>
+                                <li><strong>Content Performance Analysis</strong> - Data-driven insights to continuously improve results</li>
+                            </ul>
+                            <div class="service-benefits">
+                                <h3>Benefits</h3>
+                                <div class="benefits-grid">
+                                    <div class="benefit">
+                                        <i class="fas fa-bullseye"></i>
+                                        <p>Strategic content alignment</p>
+                                    </div>
+                                    <div class="benefit">
+                                        <i class="fas fa-comments"></i>
+                                        <p>Consistent brand messaging</p>
+                                    </div>
+                                    <div class="benefit">
+                                        <i class="fas fa-tasks"></i>
+                                        <p>Efficient content production</p>
+                                    </div>
+                                    <div class="benefit">
+                                        <i class="fas fa-chart-pie"></i>
+                                        <p>Measurable content ROI</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-image">
+                            <img src="assets/images/services/content-strategy.jpg" alt="Content Strategy Services">
+                            <a href="portfolio.html#strategy" class="btn btn-outline">View Strategy Samples</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Service Packages -->
+                <div class="pricing scroll-animation">
+                    <h2>Service Packages</h2>
+                    <div class="pricing-tiers">
+                        <div class="pricing-tier">
+                            <h3>Standard</h3>
+                            <p class="price">Starting at $150</p>
+                            <ul>
+                                <li>Single content piece or small project</li>
+                                <li>2 rounds of revisions</li>
+                                <li>Basic SEO optimization</li>
+                                <li>Delivery within 3-5 business days</li>
+                            </ul>
+                            <a href="contact.html" class="btn">Get Started</a>
+                        </div>
+                        <div class="pricing-tier featured">
+                            <div class="featured-tag">Most Popular</div>
+                            <h3>Premium</h3>
+                            <p class="price">Starting at $350</p>
+                            <ul>
+                                <li>Multiple content pieces or medium project</li>
+                                <li>3 rounds of revisions</li>
+                                <li>Advanced SEO optimization</li>
+                                <li>Competitive analysis</li>
+                                <li>Delivery within 2-4 business days</li>
+                            </ul>
+                            <a href="contact.html" class="btn">Get Started</a>
+                        </div>
+                        <div class="pricing-tier">
+                            <h3>Enterprise</h3>
+                            <p class="price">Custom Quote</p>
+                            <ul>
+                                <li>Comprehensive content strategy</li>
+                                <li>Ongoing content production</li>
+                                <li>Priority revisions</li>
+                                <li>Regular performance reporting</li>
+                                <li>Dedicated support</li>
+                            </ul>
+                            <a href="contact.html" class="btn">Get Started</a>
+                        </div>
+                    </div>
+                    <p class="custom-note">Need a custom solution? <a href="contact.html">Contact me</a> for a tailored package.</p>
+                </div>
+                
+                <!-- Process Section -->
+                <div class="process-section scroll-animation">
+                    <h2>My Process</h2>
+                    <div class="process-steps">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3>Discovery</h3>
+                                <p>I start by understanding your business, audience, and objectives through in-depth consultation and research.</p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3>Strategy</h3>
+                                <p>Based on the discovery insights, I develop a tailored content approach aligned with your goals.</p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3>Creation</h3>
+                                <p>I craft high-quality content that combines strategic thinking with engaging storytelling.</p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h3>Revision</h3>
+                                <p>Your feedback is incorporated through collaborative rounds of revisions to perfect the content.</p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">5</div>
+                            <div class="step-content">
+                                <h3>Delivery</h3>
+                                <p>Final content is delivered in your preferred format, ready for implementation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonials -->
+                <div class="testimonials scroll-animation">
+                    <h2>What Clients Say</h2>
+                    <div class="testimonial-slider">
+                        <div class="testimonial">
+                            <p class="quote">"Peng's ability to translate our technical product into clear, compelling content has been invaluable. Our user engagement increased by 42% after implementing his documentation."</p>
+                            <p class="author">— Michael T., SaaS Platform CEO</p>
+                        </div>
+                        
+                        <div class="testimonial">
+                            <p class="quote">"The product descriptions Peng created for our e-commerce store didn't just sound good—they actually drove sales. Our conversion rate improved by 18% within the first month."</p>
+                            <p class="author">— Sarah L., E-commerce Manager</p>
+                        </div>
+                        
+                        <div class="testimonial">
+                            <p class="quote">"As a global brand, we needed someone who could write content that resonates across cultures. Peng's bilingual expertise helped us successfully launch in Asian markets with culturally relevant messaging."</p>
+                            <p class="author">— David K., Marketing Director</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ Section -->
+                <div class="faq-section scroll-animation">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="faq-items">
+                        <div class="faq-item">
+                            <h3><i class="fas fa-chevron-right"></i> What makes your content services different?</h3>
+                            <div class="faq-answer">
+                                <p>My content services stand out because of my dual expertise in both e-commerce and technical content, bilingual capabilities (English and Mandarin Chinese), and strong focus on delivering measurable business results rather than just words on a page. I combine analytical thinking with creative expression to create content that both informs and inspires action.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <h3><i class="fas fa-chevron-right"></i> How do you ensure content quality and consistency?</h3>
+                            <div class="faq-answer">
+                                <p>I maintain high quality through a structured process that includes thorough research, strategic planning, careful crafting, and multiple rounds of revision. For consistency, I develop and follow comprehensive style guides that ensure your brand voice remains uniform across all content pieces.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <h3><i class="fas fa-chevron-right"></i> Can you handle ongoing content needs?</h3>
+                            <div class="faq-answer">
+                                <p>Absolutely! I offer retainer packages for clients who need regular content production. These packages can include a set number of deliverables each month, priority service, and discounted rates. We'll work together to develop a content calendar that aligns with your business goals and ensures consistent, high-quality content delivery.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <h3><i class="fas fa-chevron-right"></i> Do you work with specific industries?</h3>
+                            <div class="faq-answer">
+                                <p>While I have experience across many industries, I specialize in e-commerce, SaaS/technology, health and wellness, and sustainable products. My versatile approach allows me to quickly grasp the nuances of various fields and create content that resonates with specific target audiences.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- CTA -->
+                <div class="cta-box scroll-animation">
+                    <h2>Ready to elevate your content?</h2>
+                    <p>Let's discuss how my content services can help you achieve your business objectives.</p>
+                    <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Elite Content Solutions</h2>
+                    <p>Strategic content that drives results</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-column">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="link-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#ecommerce">E-commerce Content</a></li>
+                            <li><a href="#technical">Technical Documentation</a></li>
+                            <li><a href="#strategy">Content Strategy</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="link-column">
+                        <h3>Connect</h3>
+                        <ul>
+                            <li><a href="mailto:adam6611757@gmail.com"><i class="fas fa-envelope"></i> Email Me</a></li>
+                            <li><a href="https://www.linkedin.com/in/peng-liang-245a0635a/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Elite Content Solutions. All rights reserved.</p>
+            </div>
         </div>
-      </div>
-    </div>
-    
-    <div class="service">
-      <h2>Technical Content Simplification</h2>
-      <div class="service-details">
-        <div class="service-description">
-          <p>Make complex information accessible and engaging for both technical and non-technical audiences.</p>
-          <ul>
-            <li><strong>Product Documentation</strong> - Clear, user-friendly guides that reduce support inquiries</li>
-            <li><strong>SaaS Feature Descriptions</strong> - Benefit-focused content that emphasizes practical applications</li>
-            <li><strong>API Documentation</strong> - Developer-friendly technical content with clear examples</li>
-            <li><strong>Release Notes</strong> - Engaging updates that highlight improvements and build user excitement</li>
-            <li><strong>Technical Guides & Tutorials</strong> - Step-by-step instructions that enhance user success</li>
-          </ul>
-        </div>
-        <div class="service-image">
-          <!-- 技术内容相关图片 -->
-        </div>
-      </div>
-    </div>
-    
-    <div class="service">
-      <h2>Strategic Content Development</h2>
-      <div class="service-details">
-        <div class="service-description">
-          <p>Develop comprehensive content strategies that align with your business goals and connect with your target audience.</p>
-          <ul>
-            <li><strong>Content Audits</strong> - Thorough assessment to identify gaps and opportunities</li>
-            <li><strong>Editorial Calendars</strong> - Structured content planning aligned with business objectives</li>
-            <li><strong>Style Guides</strong> - Consistent brand voice and presentation across all channels</li>
-            <li><strong>Keyword Research & Implementation</strong> - Strategic SEO approach for improved discoverability</li>
-            <li><strong>Content Performance Analysis</strong> - Data-driven insights to continuously improve results</li>
-          </ul>
-        </div>
-        <div class="service-image">
-          <!-- 内容战略相关图片 -->
-        </div>
-      </div>
-    </div>
-    
-    <div class="pricing">
-      <h2>Service Packages</h2>
-      <div class="pricing-tiers">
-        <div class="pricing-tier">
-          <h3>Standard</h3>
-          <p class="price">Starting at $150</p>
-          <ul>
-            <li>Single content piece or small project</li>
-            <li>2 rounds of revisions</li>
-            <li>Basic SEO optimization</li>
-            <li>Delivery within 3-5 business days</li>
-          </ul>
-          <a href="contact.html" class="btn">Get Started</a>
-        </div>
-        <div class="pricing-tier featured">
-          <h3>Premium</h3>
-          <p class="price">Starting at $350</p>
-          <ul>
-            <li>Multiple content pieces or medium project</li>
-            <li>3 rounds of revisions</li>
-            <li>Advanced SEO optimization</li>
-            <li>Competitive analysis</li>
-            <li>Delivery within 2-4 business days</li>
-          </ul>
-          <a href="contact.html" class="btn">Get Started</a>
-        </div>
-        <div class="pricing-tier">
-          <h3>Enterprise</h3>
-          <p class="price">Custom Quote</p>
-          <ul>
-            <li>Comprehensive content strategy</li>
-            <li>Ongoing content production</li>
-            <li>Priority revisions</li>
-            <li>Regular performance reporting</li>
-            <li>Dedicated support</li>
-          </ul>
-          <a href="contact.html" class="btn">Get Started</a>
-        </div>
-      </div>
-      <p class="custom-note">Need a custom solution? <a href="contact.html">Contact me</a> for a tailored package.</p>
-    </div>
-  </div>
-</section>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // FAQ accordion functionality
+            const faqItems = document.querySelectorAll('.faq-item h3');
+            
+            faqItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const parent = this.parentElement;
+                    parent.classList.toggle('active');
+                    
+                    // Toggle icon
+                    const icon = this.querySelector('i');
+                    if (parent.classList.contains('active')) {
+                        icon.classList.remove('fa-chevron-right');
+                        icon.classList.add('fa-chevron-down');
+                    } else {
+                        icon.classList.remove('fa-chevron-down');
+                        icon.classList.add('fa-chevron-right');
+                    }
+                });
+            });
+            
+            // Testimonial slider
+            const testimonials = document.querySelectorAll('.testimonial');
+            const testimonialSlider = document.querySelector('.testimonial-slider');
+            
+            if (testimonials.length > 1 && testimonialSlider) {
+                let currentIndex = 0;
+                
+                // Hide all testimonials except the first one
+                testimonials.forEach((testimonial, index) => {
+                    if (index !== 0) {
+                        testimonial.style.display = 'none';
+                    }
+                });
+                
+                // Create navigation dots
+                const dotsContainer = document.createElement('div');
+                dotsContainer.className = 'slider-dots';
+                
+                testimonials.forEach((_, index) => {
+                    const dot = document.createElement('span');
+                    dot.className = index === 0 ? 'dot active' : 'dot';
+                    dot.dataset.index = index;
+                    
+                    dot.addEventListener('click', () => {
+                        showTestimonial(index);
+                    });
+                    
+                    dotsContainer.appendChild(dot);
+                });
+                
+                testimonialSlider.appendChild(dotsContainer);
+                
+                // Add navigation arrows
+                const prevButton = document.createElement('button');
+                prevButton.className = 'slider-nav prev';
+                prevButton.innerHTML = '&lsaquo;';
+                prevButton.setAttribute('aria-label', 'Previous testimonial');
+                
+                const nextButton = document.createElement('button');
+                nextButton.className = 'slider-nav next';
+                nextButton.innerHTML = '&rsaquo;';
+                nextButton.setAttribute('aria-label', 'Next testimonial');
+                
+                prevButton.addEventListener('click', () => {
+                    const newIndex = currentIndex === 0 ? testimonials.length - 1 : currentIndex - 1;
+                    showTestimonial(newIndex);
+                });
+                
+                nextButton.addEventListener('click', () => {
+                    const newIndex = currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1;
+                    showTestimonial(newIndex);
+                });
+                
+                testimonialSlider.appendChild(prevButton);
+                testimonialSlider.appendChild(nextButton);
+                
+                // Auto rotation
+                let slideInterval = setInterval(nextSlide, 5000);
+                
+                // Pause rotation on hover
+                testimonialSlider.addEventListener('mouseenter', () => {
+                    clearInterval(slideInterval);
+                });
+                
+                testimonialSlider.addEventListener('mouseleave', () => {
+                    slideInterval = setInterval(nextSlide, 5000);
+                });
+                
+                function nextSlide() {
+                    const newIndex = currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1;
+                    showTestimonial(newIndex);
+                }
+                
+                function showTestimonial(index) {
+                    // Hide current testimonial
+                    testimonials[currentIndex].style.display = 'none';
+                    
+                    // Show selected testimonial
+                    testimonials[index].style.display = 'block';
+                    
+                    // Update active dot
+                    dotsContainer.querySelectorAll('.dot').forEach((dot, i) => {
+                        dot.classList.toggle('active', i === index);
+                    });
+                    
+                    // Update current index
+                    currentIndex = index;
+                }
+            }
+            
+            // Smooth scroll to service sections
+            const serviceLinks = document.querySelectorAll('a[href^="#"]');
+            
+            serviceLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    // Only process links to sections on this page (not external links)
+                    if (this.getAttribute('href').startsWith('#') && this.getAttribute('href').length > 1) {
+                        e.preventDefault();
+                        
+                        const targetId = this.getAttribute('href');
+                        const targetElement = document.querySelector(targetId);
+                        
+                        if (targetElement) {
+                            const offsetTop = targetElement.getBoundingClientRect().top + window.pageYOffset - 80;
+                            
+                            window.scrollTo({
+                                top: offsetTop,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
