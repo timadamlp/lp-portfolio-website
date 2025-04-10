@@ -1,155 +1,414 @@
-<section class="portfolio-section">
-  <div class="container">
-    <h1>Portfolio</h1>
-    <p class="intro">Below are selected examples of my work across various industries and content types. Each project demonstrates my commitment to quality, strategic thinking, and results-driven content.</p>
-    
-    <div class="portfolio-filters">
-      <button class="filter active" data-filter="all">All</button>
-      <button class="filter" data-filter="ecommerce">E-commerce</button>
-      <button class="filter" data-filter="technical">Technical</button>
-      <button class="filter" data-filter="strategy">Strategy</button>
-      <button class="filter" data-filter="email">Email</button>
-      <button class="filter" data-filter="seo">SEO</button>
-    </div>
-    
-    <div class="portfolio-grid">
-      <!-- E-commerce Sample 1 -->
-      <div class="portfolio-item ecommerce">
-        <div class="portfolio-image">
-          <img src="assets/images/portfolio/teapot.jpg" alt="Yixing Purple Clay Teapot">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Elite Content Solutions</title>
+    <meta name="description" content="View my portfolio of e-commerce content, technical documentation, and content strategy projects. Showcasing results-driven content across various industries.">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">Elite Content Solutions</a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="portfolio-info">
-          <h3>Authentic Yixing Purple Clay Teapot</h3>
-          <p>Conversion-optimized product description highlighting cultural significance, craftsmanship, and practical benefits to entice tea enthusiasts.</p>
-          <a href="samples/yixing-teapot.pdf" class="portfolio-link">View Sample</a>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Portfolio Section -->
+        <section class="portfolio-section">
+            <div class="container">
+                <h1 class="fade-in">Portfolio</h1>
+                <p class="intro fade-in">Below are selected examples of my work across various industries and content types. Each project demonstrates my commitment to quality, strategic thinking, and results-driven content.</p>
+                
+                <div class="portfolio-filters fade-in">
+                    <button class="filter active" data-filter="all">All</button>
+                    <button class="filter" data-filter="ecommerce">E-commerce</button>
+                    <button class="filter" data-filter="technical">Technical</button>
+                    <button class="filter" data-filter="strategy">Strategy</button>
+                    <button class="filter" data-filter="email">Email</button>
+                    <button class="filter" data-filter="seo">SEO</button>
+                </div>
+                
+                <div class="portfolio-grid">
+                    <!-- E-commerce Sample 1 -->
+                    <div class="portfolio-item ecommerce scroll-animation">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio/teapot.jpg" alt="Yixing Purple Clay Teapot">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Authentic Yixing Purple Clay Teapot</h3>
+                            <p>Conversion-optimized product description highlighting cultural significance, craftsmanship, and practical benefits to entice tea enthusiasts.</p>
+                            <a href="samples/yixing-teapot.pdf" class="portfolio-link" target="_blank">View Sample</a>
+                        </div>
+                    </div>
+                    
+                    <!-- E-commerce Sample 2 -->
+                    <div class="portfolio-item ecommerce scroll-animation stagger-1">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio/knife.jpg" alt="German Chef Knife">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>德国匠心锻造厨师刀</h3>
+                            <p>Bilingual product description for premium chef knife, strategically presenting features and benefits to both Chinese and Western cooking enthusiasts.</p>
+                            <a href="samples/chef-knife.pdf" class="portfolio-link" target="_blank">View Sample</a>
+                        </div>
+                    </div>
+                    
+                    <!-- E-commerce Sample 3 -->
+                    <div class="portfolio-item ecommerce scroll-animation stagger-2">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio/rosehip-oil.jpg" alt="Organic Rosehip Oil">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>东方肌肤的西方珍宝——美国有机玫瑰果油</h3>
+                            <p>Culturally-tailored product description for organic beauty oil targeting Asian skincare enthusiasts, emphasizing unique benefits for Asian skin types.</p>
+                            <a href="samples/rosehip-oil.pdf" class="portfolio-link" target="_blank">View Sample</a>
+                        </div>
+                    </div>
+                    
+                    <!-- E-commerce About Us -->
+                    <div class="portfolio-item ecommerce scroll-animation stagger-3">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio/ecoliving.jpg" alt="EcoLiving Essentials">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>EcoLiving Essentials - About Us Page</h3>
+                            <p>Compelling brand story for a sustainable living Amazon store, establishing trust and emotional connection with eco-conscious customers.</p>
+                            <a href="samples/ecoliving-about.pdf" class="portfolio-link" target="_blank">View Sample</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Email Marketing -->
+                    <div class="portfolio-item email ecommerce scroll-animation">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio/email-templates.jpg" alt="Email Templates">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>E-commerce Email Templates Collection</h3>
+                            <p>Strategic email marketing templates designed to nurture customer relationships and drive conversions at every stage of the buyer journey.</p>
+                            <a href="samples/email-templates.pdf" class="portfolio-link" target="_blank">View Sample</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Technical Sample 1 - SaaS Blog -->
+                    <div class="portfolio-item technical scroll-animation stagger-1">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio/jasper-ai.jpg" alt="Jasper AI Blog">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Revolutionize Your Content Creation with Jasper AI</h3>
+                            <p>Feature-focused blog post highlighting how Jasper AI helps users save time and boost creativity, with specific use cases and benefits.</p>
+                            <a href="samples/jasper-ai-blog.pdf" class="portfolio-link" target="_blank">View Sample</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Technical Sample 2 - Use Case -->
+                    <div class="portfolio-item technical scroll-animation stagger-2">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio/use-case.jpg" alt="Technical Use Case">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Technical Product Use Case Scenario Document</h3>
+                            <p>Detailed documentation showcasing practical applications of a technical product, with clear step-by-step instructions for implementation.</p>
+                            <a href="samples/technical-use-case.pdf" class="portfolio-link" target="_blank">View Sample</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Technical Sample 3 - API Doc -->
+                    <div class="portfolio-item technical scroll-animation stagger-3">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio/api-doc.jpg" alt="API Documentation">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>E-Commerce Product API - Simplified Documentation</h3>
+                            <p>User-friendly API documentation that translates complex technical functionality into clear, accessible instructions for developers.</p>
+                            <a href="samples/api-documentation.pdf" class="portfolio-link" target="_blank">View Sample</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Technical Sample 4 - Release Notes -->
+                    <div class="portfolio-item technical scroll-animation">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio/release-notes.jpg" alt="Release Notes">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Software Release Notes Template</h3>
+                            <p>Engaging release notes format that transforms technical updates into user-friendly announcements that build excitement and adoption.</p>
+                            <a href="samples/release-notes.pdf" class="portfolio-link" target="_blank">View Sample</a>
+                        </div>
+                    </div>
+                    
+                    <!-- SEO Case Study -->
+                    <div class="portfolio-item strategy seo scroll-animation stagger-1">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio/seo-case-study.jpg" alt="SEO Case Study">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>SEO Optimization Case Study: NaturalGlow Skincare</h3>
+                            <p>Comprehensive case study demonstrating how strategic content optimization improved organic traffic and conversions for a skincare brand.</p>
+                            <a href="samples/seo-case-study.pdf" class="portfolio-link" target="_blank">View Sample</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Modal - Will be added by JavaScript -->
+                <div id="portfolio-modal" class="portfolio-modal">
+                    <div class="modal-content">
+                        <span class="close-modal">&times;</span>
+                        <div class="modal-body">
+                            <!-- Content will be dynamically added here -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonials scroll-animation">
+                    <h2>Client Testimonials</h2>
+                    <div class="testimonial-slider">
+                        <div class="testimonial">
+                            <p class="quote">"Peng's ability to translate our technical product into clear, compelling content has been invaluable. Our user engagement increased by 42% after implementing his documentation."</p>
+                            <p class="author">— Michael T., SaaS Platform CEO</p>
+                        </div>
+                        
+                        <div class="testimonial">
+                            <p class="quote">"The product descriptions Peng created for our e-commerce store didn't just sound good—they actually drove sales. Our conversion rate improved by 18% within the first month."</p>
+                            <p class="author">— Sarah L., E-commerce Manager</p>
+                        </div>
+                        
+                        <div class="testimonial">
+                            <p class="quote">"As a global brand, we needed someone who could write content that resonates across cultures. Peng's bilingual expertise helped us successfully launch in Asian markets with culturally relevant messaging."</p>
+                            <p class="author">— David K., Marketing Director</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- CTA Section -->
+                <div class="portfolio-cta scroll-animation">
+                    <h2>Interested in working together?</h2>
+                    <p>Let's discuss how I can help elevate your content strategy and deliver results-driven content for your business.</p>
+                    <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Elite Content Solutions</h2>
+                    <p>Strategic content that drives results</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-column">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="link-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="services.html#ecommerce">E-commerce Content</a></li>
+                            <li><a href="services.html#technical">Technical Documentation</a></li>
+                            <li><a href="services.html#strategy">Content Strategy</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="link-column">
+                        <h3>Connect</h3>
+                        <ul>
+                            <li><a href="mailto:adam6611757@gmail.com"><i class="fas fa-envelope"></i> Email Me</a></li>
+                            <li><a href="https://www.linkedin.com/in/peng-liang-245a0635a/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Elite Content Solutions. All rights reserved.</p>
+            </div>
         </div>
-      </div>
-      
-      <!-- E-commerce Sample 2 -->
-      <div class="portfolio-item ecommerce">
-        <div class="portfolio-image">
-          <img src="assets/images/portfolio/knife.jpg" alt="German Chef Knife">
-        </div>
-        <div class="portfolio-info">
-          <h3>德国匠心锻造厨师刀 — 传承东西方烹饪精粹</h3>
-          <p>Bilingual product description for premium chef knife, strategically presenting features and benefits to both Chinese and Western cooking enthusiasts.</p>
-          <a href="samples/chef-knife.pdf" class="portfolio-link">View Sample</a>
-        </div>
-      </div>
-      
-      <!-- E-commerce Sample 3 -->
-      <div class="portfolio-item ecommerce">
-        <div class="portfolio-image">
-          <img src="assets/images/portfolio/rosehip-oil.jpg" alt="Organic Rosehip Oil">
-        </div>
-        <div class="portfolio-info">
-          <h3>东方肌肤的西方珍宝——美国有机玫瑰果油</h3>
-          <p>Culturally-tailored product description for organic beauty oil targeting Asian skincare enthusiasts, emphasizing unique benefits for Asian skin types.</p>
-          <a href="samples/rosehip-oil.pdf" class="portfolio-link">View Sample</a>
-        </div>
-      </div>
-      
-      <!-- E-commerce About Us -->
-      <div class="portfolio-item ecommerce">
-        <div class="portfolio-image">
-          <img src="assets/images/portfolio/ecoliving.jpg" alt="EcoLiving Essentials">
-        </div>
-        <div class="portfolio-info">
-          <h3>EcoLiving Essentials - About Us Page</h3>
-          <p>Compelling brand story for a sustainable living Amazon store, establishing trust and emotional connection with eco-conscious customers.</p>
-          <a href="samples/ecoliving-about.pdf" class="portfolio-link">View Sample</a>
-        </div>
-      </div>
-      
-      <!-- Email Marketing -->
-      <div class="portfolio-item email ecommerce">
-        <div class="portfolio-image">
-          <img src="assets/images/portfolio/email-templates.jpg" alt="Email Templates">
-        </div>
-        <div class="portfolio-info">
-          <h3>E-commerce Email Templates Collection</h3>
-          <p>Strategic email marketing templates designed to nurture customer relationships and drive conversions at every stage of the buyer journey.</p>
-          <a href="samples/email-templates.pdf" class="portfolio-link">View Sample</a>
-        </div>
-      </div>
-      
-      <!-- Technical Sample 1 - SaaS Blog -->
-      <div class="portfolio-item technical">
-        <div class="portfolio-image">
-          <img src="assets/images/portfolio/jasper-ai.jpg" alt="Jasper AI Blog">
-        </div>
-        <div class="portfolio-info">
-          <h3>Revolutionize Your Content Creation with Jasper AI</h3>
-          <p>Feature-focused blog post highlighting how Jasper AI helps users save time and boost creativity, with specific use cases and benefits.</p>
-          <a href="samples/jasper-ai-blog.pdf" class="portfolio-link">View Sample</a>
-        </div>
-      </div>
-      
-      <!-- Technical Sample 2 - Use Case -->
-      <div class="portfolio-item technical">
-        <div class="portfolio-image">
-          <img src="assets/images/portfolio/use-case.jpg" alt="Technical Use Case">
-        </div>
-        <div class="portfolio-info">
-          <h3>Technical Product Use Case Scenario Document</h3>
-          <p>Detailed documentation showcasing practical applications of a technical product, with clear step-by-step instructions for implementation.</p>
-          <a href="samples/technical-use-case.pdf" class="portfolio-link">View Sample</a>
-        </div>
-      </div>
-      
-      <!-- Technical Sample 3 - API Doc -->
-      <div class="portfolio-item technical">
-        <div class="portfolio-image">
-          <img src="assets/images/portfolio/api-doc.jpg" alt="API Documentation">
-        </div>
-        <div class="portfolio-info">
-          <h3>E-Commerce Product API - Simplified Documentation</h3>
-          <p>User-friendly API documentation that translates complex technical functionality into clear, accessible instructions for developers.</p>
-          <a href="samples/api-documentation.pdf" class="portfolio-link">View Sample</a>
-        </div>
-      </div>
-      
-      <!-- Technical Sample 4 - Release Notes -->
-      <div class="portfolio-item technical">
-        <div class="portfolio-image">
-          <img src="assets/images/portfolio/release-notes.jpg" alt="Release Notes">
-        </div>
-        <div class="portfolio-info">
-          <h3>Software Release Notes Template</h3>
-          <p>Engaging release notes format that transforms technical updates into user-friendly announcements that build excitement and adoption.</p>
-          <a href="samples/release-notes.pdf" class="portfolio-link">View Sample</a>
-        </div>
-      </div>
-      
-      <!-- SEO Case Study -->
-      <div class="portfolio-item strategy seo">
-        <div class="portfolio-image">
-          <img src="assets/images/portfolio/seo-case-study.jpg" alt="SEO Case Study">
-        </div>
-        <div class="portfolio-info">
-          <h3>SEO Optimization Case Study: NaturalGlow Skincare</h3>
-          <p>Comprehensive case study demonstrating how strategic content optimization improved organic traffic and conversions for a skincare brand.</p>
-          <a href="samples/seo-case-study.pdf" class="portfolio-link">View Sample</a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="testimonials">
-      <h2>Client Testimonials</h2>
-      <div class="testimonial-slider">
-        <div class="testimonial">
-          <p class="quote">"Peng's ability to translate our technical product into clear, compelling content has been invaluable. Our user engagement increased by 42% after implementing his documentation."</p>
-          <p class="author">— Michael T., SaaS Platform CEO</p>
-        </div>
-        <div class="testimonial">
-          <p class="quote">"The product descriptions Peng created for our e-commerce store didn't just sound good—they actually drove sales. Our conversion rate improved by 18% within the first month."</p>
-          <p class="author">— Sarah L., E-commerce Manager</p>
-        </div>
-        <div class="testimonial">
-          <p class="quote">"As a global brand, we needed someone who could write content that resonates across cultures. Peng's bilingual expertise helped us successfully launch in Asian markets with culturally relevant messaging."</p>
-          <p class="author">— David K., Marketing Director</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/portfolio-filter.js"></script>
+    <script>
+        // Initialize portfolio modal functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set up portfolio item modal view
+            const portfolioLinks = document.querySelectorAll('.portfolio-link');
+            const modal = document.getElementById('portfolio-modal');
+            const modalClose = document.querySelector('.close-modal');
+            const modalBody = document.querySelector('.modal-body');
+            
+            if (portfolioLinks.length && modal) {
+                // Open modal when clicking portfolio item link
+                portfolioLinks.forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        
+                        const pdfUrl = this.getAttribute('href');
+                        const title = this.closest('.portfolio-info').querySelector('h3').textContent;
+                        
+                        // Update modal content
+                        modalBody.innerHTML = `
+                            <h2>${title}</h2>
+                            <div class="pdf-viewer">
+                                <iframe src="${pdfUrl}" width="100%" height="600px"></iframe>
+                            </div>
+                        `;
+                        
+                        // Show modal
+                        modal.classList.add('active');
+                        document.body.style.overflow = 'hidden'; // Prevent scrolling
+                    });
+                });
+                
+                // Close modal when clicking X button
+                if (modalClose) {
+                    modalClose.addEventListener('click', function() {
+                        modal.classList.remove('active');
+                        document.body.style.overflow = ''; // Enable scrolling
+                    });
+                }
+                
+                // Close modal when clicking outside content
+                modal.addEventListener('click', function(e) {
+                    if (e.target === modal) {
+                        modal.classList.remove('active');
+                        document.body.style.overflow = ''; // Enable scrolling
+                    }
+                });
+                
+                // Close modal with ESC key
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape' && modal.classList.contains('active')) {
+                        modal.classList.remove('active');
+                        document.body.style.overflow = ''; // Enable scrolling
+                    }
+                });
+            }
+            
+            // Initialize testimonial slider
+            const testimonials = document.querySelectorAll('.testimonial');
+            const testimonialSlider = document.querySelector('.testimonial-slider');
+            
+            if (testimonials.length > 1 && testimonialSlider) {
+                let currentIndex = 0;
+                
+                // Hide all testimonials except the first one
+                testimonials.forEach((testimonial, index) => {
+                    if (index !== 0) {
+                        testimonial.style.display = 'none';
+                    }
+                });
+                
+                // Create navigation dots
+                const dotsContainer = document.createElement('div');
+                dotsContainer.className = 'slider-dots';
+                
+                testimonials.forEach((_, index) => {
+                    const dot = document.createElement('span');
+                    dot.className = index === 0 ? 'dot active' : 'dot';
+                    dot.dataset.index = index;
+                    
+                    dot.addEventListener('click', () => {
+                        showTestimonial(index);
+                    });
+                    
+                    dotsContainer.appendChild(dot);
+                });
+                
+                testimonialSlider.appendChild(dotsContainer);
+                
+                // Create navigation arrows
+                const prevButton = document.createElement('button');
+                prevButton.className = 'slider-nav prev';
+                prevButton.innerHTML = '&lsaquo;';
+                prevButton.setAttribute('aria-label', 'Previous testimonial');
+                
+                const nextButton = document.createElement('button');
+                nextButton.className = 'slider-nav next';
+                nextButton.innerHTML = '&rsaquo;';
+                nextButton.setAttribute('aria-label', 'Next testimonial');
+                
+                prevButton.addEventListener('click', () => {
+                    const newIndex = currentIndex === 0 ? testimonials.length - 1 : currentIndex - 1;
+                    showTestimonial(newIndex);
+                });
+                
+                nextButton.addEventListener('click', () => {
+                    const newIndex = currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1;
+                    showTestimonial(newIndex);
+                });
+                
+                testimonialSlider.appendChild(prevButton);
+                testimonialSlider.appendChild(nextButton);
+                
+                // Auto rotation
+                let slideInterval = setInterval(nextSlide, 5000);
+                
+                // Pause rotation on hover
+                testimonialSlider.addEventListener('mouseenter', () => {
+                    clearInterval(slideInterval);
+                });
+                
+                testimonialSlider.addEventListener('mouseleave', () => {
+                    slideInterval = setInterval(nextSlide, 5000);
+                });
+                
+                function nextSlide() {
+                    const newIndex = currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1;
+                    showTestimonial(newIndex);
+                }
+                
+                function showTestimonial(index) {
+                    // Hide current testimonial
+                    testimonials[currentIndex].style.display = 'none';
+                    
+                    // Show selected testimonial
+                    testimonials[index].style.display = 'block';
+                    
+                    // Update active dot
+                    dotsContainer.querySelectorAll('.dot').forEach((dot, i) => {
+                        dot.classList.toggle('active', i === index);
+                    });
+                    
+                    // Update current index
+                    currentIndex = index;
+                }
+            }
+        });
+    </script>
+</body>
+</html>
