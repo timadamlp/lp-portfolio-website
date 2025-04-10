@@ -1,0 +1,285 @@
+/* 
+* Elite Content Solutions - Responsive CSS
+* Responsive styles for different screen sizes
+*/
+
+/* Large Desktop (1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Desktop (992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Tablet (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+  
+  .hero h1 {
+    font-size: 2.25rem;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+  }
+  
+  .feature {
+    min-width: 50%;
+  }
+  
+  .portfolio-item {
+    max-width: calc(50% - 30px);
+  }
+  
+  .pricing-tier {
+    min-width: calc(50% - 30px);
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .pricing-tier.featured {
+    transform: none;
+  }
+  
+  .philosophy-item {
+    min-width: calc(50% - 30px);
+  }
+}
+
+/* Mobile Large (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+  
+  .header-container {
+    flex-direction: column;
+    padding: var(--spacing-sm) 0;
+  }
+  
+  .logo {
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  .nav-menu {
+    justify-content: center;
+  }
+  
+  .nav-menu li {
+    margin: 0 var(--spacing-sm);
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+  }
+  
+  .feature {
+    min-width: 100%;
+  }
+  
+  .service-details {
+    flex-direction: column;
+  }
+  
+  .service-image {
+    padding-left: 0;
+    margin-top: var(--spacing-md);
+  }
+  
+  .portfolio-item {
+    max-width: 100%;
+  }
+  
+  .pricing-tier {
+    min-width: 100%;
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .pricing-tier.featured {
+    transform: none;
+  }
+  
+  .contact-info, .contact-form {
+    min-width: 100%;
+  }
+  
+  .contact-info {
+    margin-bottom: var(--spacing-md);
+    padding-right: 0;
+  }
+  
+  .philosophy-item {
+    min-width: 100%;
+  }
+  
+  .profile {
+    flex-direction: column;
+  }
+  
+  .profile-image {
+    margin-bottom: var(--spacing-md);
+    padding-right: 0;
+  }
+}
+
+/* Mobile Small (up to 575px) */
+@media (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding: 0 var(--spacing-sm);
+  }
+  
+  .header-container {
+    padding: var(--spacing-sm) 0;
+  }
+  
+  /* Mobile Menu Styles */
+  .mobile-menu-toggle {
+    display: block;
+  }
+  
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--white);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: var(--spacing-sm) 0;
+  }
+  
+  .nav-menu.active {
+    display: flex;
+  }
+  
+  .nav-menu li {
+    margin: 0;
+    text-align: center;
+    padding: var(--spacing-xs) 0;
+  }
+  
+  .hero {
+    padding: var(--spacing-lg) 0;
+  }
+  
+  .hero h1 {
+    font-size: 1.75rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+  }
+  
+  section {
+    padding: var(--spacing-md) 0;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+  
+  .feature {
+    min-width: 100%;
+  }
+  
+  .service-details {
+    flex-direction: column;
+  }
+  
+  .service-image {
+    padding-left: 0;
+    margin-top: var(--spacing-md);
+  }
+  
+  .portfolio-filters {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .filter {
+    margin-bottom: var(--spacing-xs);
+    width: 80%;
+  }
+  
+  .portfolio-item {
+    max-width: 100%;
+  }
+  
+  .pricing-tier {
+    min-width: 100%;
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .pricing-tier.featured {
+    transform: none;
+  }
+  
+  .contact-container {
+    flex-direction: column;
+  }
+  
+  .contact-info, .contact-form {
+    min-width: 100%;
+  }
+  
+  .contact-info {
+    margin-bottom: var(--spacing-md);
+    padding-right: 0;
+  }
+  
+  .faq-item h3 {
+    font-size: 1.1rem;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+  }
+  
+  .footer-logo, .link-column {
+    min-width: 100%;
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .profile {
+    flex-direction: column;
+  }
+  
+  .profile-image {
+    margin-bottom: var(--spacing-md);
+    padding-right: 0;
+  }
+  
+  .philosophy-item {
+    min-width: 100%;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+  }
+}
